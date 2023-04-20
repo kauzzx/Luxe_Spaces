@@ -567,8 +567,7 @@ body{
     .cabecalho{
         display: flex;
         justify-content: space-between;
-        padding-right: 1%;
-        border: 1px solid seagreen;
+        padding: 0.8rem 0;
     }
 
     .cabecalho_nav,.cabecalho_link_talk_palavra,.row,.apresentacao_inicial_paragrafo,.rodape_develop{
@@ -597,7 +596,7 @@ body{
     }
     .apresentacao_inicial_informacao{
         padding: 2% 0;
-        padding-left: 35%;
+        padding-left: 20%;
     }
     .apresentacao_inicial_titulo{
         padding-left: 5%;
@@ -697,6 +696,7 @@ body{
     }
     .rodape_titulo{
         padding: 5%;
+        font-size: 350%;
     }
     .rodape_paragrafo{
         width: auto;
