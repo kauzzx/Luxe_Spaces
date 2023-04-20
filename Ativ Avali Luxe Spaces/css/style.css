@@ -104,8 +104,10 @@ body{
     font-family: var(--font-primaria);
     color: var(--color-texto_primario);
     font-weight: 600;
-    font-size: 500%;
+    font-size: 400%;
     padding-top: 17%;
+    display: flex;
+    padding-right: 4%;
 }
 /*-----------------------------------------*/
 .apresentacao_inicial_link{
@@ -617,14 +619,16 @@ body{
         padding-left: 0%;
     }
     .imagem_inicial_clara{
-        height: 100%;
+        width: 100%;
     }
     .apresentacao_inicial_sala_clara{
-        width: 70%;
+        display: flex;
+        align-items: flex-end;
     }
     .apresentacao_inicial_rolagem{
         margin-top: 8rem;
         padding-right: 10%;
+        padding-left: 2rem;
     }
     
     .apresentacao_inicial_rolagem_imagem{
