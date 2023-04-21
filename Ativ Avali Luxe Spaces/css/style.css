@@ -6,7 +6,6 @@
     padding: 0;
 }
 
-
 :root{
     --color-primaria_logo: #FFA400;
     --color-backgroud: #22201F;
@@ -77,6 +76,10 @@ body{
     font-weight: 600;
     flex-wrap: nowrap;
 }
+.cabecalho_link_talk_palavra:hover{
+    background-color:var(--color-backgroud_secundaria);
+    color: var(--color-primaria_logo);
+}
 /*-----------------------------------------*/
 .site_completo{
     display: flex;
@@ -117,7 +120,7 @@ body{
     display: flex;
 }
 .apresentacao_inicial_link_link{
-    background: #FFA400;
+    background: var(--color-primaria_logo);
     border-radius: 10rem;
     font-size: 90%;
     border: var(--color-primaria_logo) solid;
@@ -128,6 +131,12 @@ body{
     text-decoration: none;
     display: flex;
     justify-content: center;
+}
+.apresentacao_inicial_link_link:hover{
+    background: var(--color-backgroud_secundaria);
+    border: var(--color-backgroud_secundaria) solid;
+    border-width: 1rem 2.5rem;
+    color: var(--color-primaria_logo);
 }
 /*-----------------------------------------*/
 .row{
@@ -462,6 +471,7 @@ body{
 }
 .section_quatro_button_img{
     width: 50%;
+    
 }
 /*-----------------------------------------*/
 .section_quatro_div_img{
@@ -561,10 +571,6 @@ body{
 
 
 @media (max-width: 576px){
-/* 
-    body{
-        width: 100%;
-    } */
 
     .cabecalho{
         display: flex;
@@ -658,7 +664,6 @@ body{
     .folha_secundaria_informacao{
         order: 1;
     }
-    
     .folha_terciaria_section_um{
         flex-direction: column;
     }
@@ -683,9 +688,11 @@ body{
     }
     .section_dois_button_img,.section_quatro_button_img{
         width: 100%;
+        padding-right: 2rem;
     }
     .section_tres_button_img{
-        width: 300%;
+        width: 100%;
+        padding-right: 2rem;
     }
     .folha_terciaria_meio_site{
         padding-bottom: 5rem;
