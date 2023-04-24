@@ -19,7 +19,7 @@
 }
 /*-----------------------------------------*/
 body{
-    background-color: var(--color-backgroud_secundaria);
+    background-color: var(--color-backgroud);
 }
 /*-----------------------------------------*/
 .cabecalho{
@@ -28,7 +28,6 @@ body{
     border-bottom: 1px solid  var(--color-backgroud_secundaria) ;
     align-items: center;
     padding:  1rem 4rem;
-    background-color: var(--color-backgroud);
 }
 /*-----------------------------------------*/
 .logo{
@@ -94,7 +93,6 @@ body{
 .apresentacao_inicial_conteudo{
     display: flex;
     flex-direction: row;
-    background-color: var(--color-backgroud);
 }
 
 /*-----------------------------------------*/
@@ -486,8 +484,7 @@ body{
 .rodape{
     display: flex;
     flex-direction: column;
-    padding-top: 10%;  
-    background-color: var(--color-backgroud);
+    padding-top: 10%; 
 }
 
 .rodape_apresentacao{
@@ -690,6 +687,9 @@ body{
     .section_dois_button_img_div,.section_tres_button_img_div,.section_quatro_button_img_div{
         display: flex;
         align-items: flex-end;
+    }
+    .section_dois_button_img_div{
+        padding-right: 1rem ;
     }
     .section_dois_button_img,.section_quatro_button_img{
         width: 100%;
