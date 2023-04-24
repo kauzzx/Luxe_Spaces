@@ -19,7 +19,7 @@
 }
 /*-----------------------------------------*/
 body{
-    background-color: var(--color-backgroud);
+    background-color: var(--color-backgroud_secundaria);
 }
 /*-----------------------------------------*/
 .cabecalho{
@@ -28,6 +28,7 @@ body{
     border-bottom: 1px solid  var(--color-backgroud_secundaria) ;
     align-items: center;
     padding:  1rem 4rem;
+    background-color: var(--color-backgroud);
 }
 /*-----------------------------------------*/
 .logo{
@@ -93,6 +94,7 @@ body{
 .apresentacao_inicial_conteudo{
     display: flex;
     flex-direction: row;
+    background-color: var(--color-backgroud);
 }
 
 /*-----------------------------------------*/
@@ -485,6 +487,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 10%;  
+    background-color: var(--color-backgroud);
 }
 
 .rodape_apresentacao{
@@ -577,6 +580,7 @@ body{
         justify-content: space-between;
         padding: 0.8rem 0;
         border: 0;
+        padding-left: 1rem;
     }
 
     .cabecalho_nav,.cabecalho_link_talk_palavra,.row,.apresentacao_inicial_paragrafo,.rodape_develop{
