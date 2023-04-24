@@ -576,6 +576,7 @@ body{
         display: flex;
         justify-content: space-between;
         padding: 0.8rem 0;
+        border: 0;
     }
 
     .cabecalho_nav,.cabecalho_link_talk_palavra,.row,.apresentacao_inicial_paragrafo,.rodape_develop{
