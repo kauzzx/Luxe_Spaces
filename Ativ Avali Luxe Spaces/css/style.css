@@ -191,6 +191,7 @@ body{
 .apresentacao_inicial_informacao{
     display: flex;
     padding-right: 13%;
+    padding-left: 13rem;
     padding-top: 2rem;
 }
 .apresentacao_inicial_informacao div{
